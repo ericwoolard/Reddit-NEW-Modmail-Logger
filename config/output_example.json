@@ -1,0 +1,72 @@
+{
+    "conversationIds": [],
+    "viewerId": "",
+    "conversations": {
+        "id": {
+            "lastUpdated": "",
+            "subject": "subject",
+            "authors": [
+                {
+                    "isDeleted": false,
+                    "isOp": true,
+                    "isParticipant": false,
+                    "name": "",
+                    "isHidden": false,
+                    "isMod": true,
+                    "isAdmin": false,
+                    "id": 
+                }
+            ],
+            "state": 2,
+            "isRepliable": true,
+            "isAuto": false,
+            "id": "",
+            "isInternal": false,
+            "owner": {
+                "type": "subreddit",
+                "displayName": "GlobalOffensive",
+                "id": "t5_2sqho"
+            },
+            "objIds": [
+                {
+                    "key": "messages",
+                    "id": ""
+                }
+            ],
+            "lastUnread": null,
+            "numMessages": 1,
+            "isHighlighted": false,
+            "lastUserUpdate": null,
+            "lastModUpdate": "",
+            "participant": {
+                "isDeleted": false,
+                "isOp": false,
+                "isParticipant": true,
+                "name": "",
+                "isHidden": false,
+                "isMod": false,
+                "isAdmin": false,
+                "id": 
+            }
+        }
+    },
+    "messages": {
+        "id": {
+            "body": "",
+            "isInternal": false,
+            "bodyMarkdown": "",
+            "author": {
+                "isDeleted": false,
+                "isOp": false,
+                "isParticipant": false,
+                "name": "",
+                "isHidden": false,
+                "isMod": true,
+                "isAdmin": false,
+                "id": 
+            },
+            "date": "2017-03-26T12:44:21.793602+00:00",
+            "id": ""
+        }
+    }
+}

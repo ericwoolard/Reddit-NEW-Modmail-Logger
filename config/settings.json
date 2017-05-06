@@ -1,0 +1,16 @@
+{
+	"reddit": {
+		"subreddit": "subreddit",
+		"username": "user",
+		"password": "hunter4",
+        "client_id": "client_id",
+        "client_secret": "client_secret"
+	},	
+	"db": {
+		"host": "host",
+		"port": 0000,
+		"username": "user",
+		"password": "hunter5",
+		"database": "dbname"
+	}
+}
