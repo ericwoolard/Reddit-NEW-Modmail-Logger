@@ -1,4 +1,4 @@
-New-Modmail Fetcher
+New-Modmail Logger
 ------------
 This was created using the bare Reddit API for new-modmail, since at the time PRAW had yet to update.
 The new-modmail API is pretty messy, so I did the best I could with what I gots. 
