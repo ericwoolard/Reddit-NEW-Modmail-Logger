@@ -29,7 +29,7 @@ def save(path, data_str, mode='w'):
         if os.path.isdir(directory):
             return save(path, data_str, mode)
         else:
-            log.error('Could not write to ' + path)
+            print('Could not write to ' + path)
             return False
     else:
         return True
@@ -41,7 +41,7 @@ def read(path):
     try:
         return open(path, encoding="utf8").read()
     except IOError:
-        log.error('Could not find or open file: ' + path)
+        print('Could not find or open file: ' + path)
         return False
 
 
@@ -51,7 +51,7 @@ def delete(path):
     try:
         os.remove(path)
     except OSError:
-        log.error('Could not remove file: ' + path)
+        print('Could not remove file: ' + path)
         return False
     else:
         return True
@@ -87,7 +87,7 @@ def readJson(path):
         try:
             return json.loads(f)
         except ValueError:
-            log.error('Could not parse JSON file: ' + path)
+            print('Could not parse JSON file: ' + path)
             return False
     else:
         return False
