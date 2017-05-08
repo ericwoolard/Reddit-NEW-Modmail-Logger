@@ -4,8 +4,6 @@ import io
 import json
 import os
 import sys
-# Project imports
-import log
 
 
 ##############################
